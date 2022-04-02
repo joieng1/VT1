@@ -217,3 +217,28 @@ font-size: 2rem;
     padding-right: 20px;
     color: white;
 }
+
+/* Container needed to position the button. Adjust the width as needed */
+.container1 {
+    position: relative;
+}
+
+/* Make the image responsive */
+.container1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container1 .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4682b4;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
